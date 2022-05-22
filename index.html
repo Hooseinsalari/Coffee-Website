@@ -1,73 +1,124 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
-        <!--=============== BOXICONS ===============-->
-        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="./assets/css/styles.css">
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
-        <title>coffee website</title>
-    </head>
-    <body>
-        <!--==================== LOADER ====================-->
-        
+    <title>coffee website</title>
+  </head>
+  <body>
+    <!--==================== LOADER ====================-->
 
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            
-        </header>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="./assets/img/logo.png" alt="logo" class="nav__logo-img" />
+          Coffee.
+        </a>
 
-        <!--==================== MAIN ====================-->
-        <main>
-            <!--==================== HOME ====================-->
-            <section class="home grid" id="home">
-                
-            </section>
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
 
-            <!--==================== ESPECIALTY ====================-->
-            <div class="specialty section container" id="specialty">
-                
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li class="nav__item">
+              <a href="#premium" class="nav__link">Premium</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blogs" class="nav__link">Blogs</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main>
+      <!--==================== HOME ====================-->
+      <section class="home grid" id="home">
+        <div class="home__container">
+          <div class="home__content container">
+            <h1 class="home__title">
+              Choose Your Favorite Coffee And Enjoy<span>.</span>
+            </h1>
+            <p class="home__description">Buy the best and delicious coffees.</p>
+            <div class="home__data">
+              <div class="home__data-group">
+                <h2 class="home__data-number">120K</h2>
+                <h3 class="home__data-title">Testimonials</h3>
+                <p class="home__data-description">
+                  Testimonials from various customers who trust us.
+                </p>
+              </div>
+
+              <div class="home__data-group">
+                <h2 class="home__data-number">340+</h2>
+                <h3 class="home__data-title">Exclusive Product</h3>
+                <p class="home__data-description">Premium preparation with quality ingredients.</p>
+              </div>
             </div>
 
-            <!--==================== PRODUCTS ====================-->
-            <section class="products section" id="products">
-                
-            </section>
+            <a href="#specialty" class="home__scroll">
+                <img src="./assets/img/scroll.png" alt="">
+            </a>
+          </div>
+        </div>
 
-            <!--==================== QUALITY ====================-->
-            <section class="quality section" id="premium">
-                
-            </section>
+        <img src="./assets/img/home.png" alt="home-logo">
+      </section>
 
-            <!--==================== LOGOS ====================-->
-            <section class="logo section">
-                
-            </section>
+      <!--==================== ESPECIALTY ====================-->
+      <div class="specialty section container" id="specialty"></div>
 
-            <!--==================== BLOG ====================-->
-            <section class="blog section" id="blog">
-                
-            </section>
-        </main>
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products"></section>
 
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            
-        </footer>
+      <!--==================== QUALITY ====================-->
+      <section class="quality section" id="premium"></section>
 
+      <!--==================== LOGOS ====================-->
+      <section class="logo section"></section>
 
-        <!--========== SCROLL UP ==========-->
-        
+      <!--==================== BLOG ====================-->
+      <section class="blog section" id="blog"></section>
+    </main>
 
-        <!--=============== MIXITUP FILTER ===============-->
-        <script src=""></script>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
 
-        <!--=============== MAIN JS ===============-->
-        <script src="./assets/js/main.js"></script>
-    </body>
+    <!--========== SCROLL UP ==========-->
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src=""></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
